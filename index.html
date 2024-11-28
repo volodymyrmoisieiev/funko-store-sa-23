@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funko World</title>
+
+    <!-- Підключення Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <span>Funko <span class="world">world</span></span>
+        </div>
+    
+        <!-- Бургер-меню -->
+        <div class="burger-menu">
+            <input type="checkbox" id="burger-toggle" />
+            <label for="burger-toggle" class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="burger-dropdown">
+                <ul>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Бренди</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <ul class="desktop-menu">
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Бренди</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+        
+        <div class="header-buttons">
+            <div class="search-container">
+                <input type="text" placeholder="Пошук..." class="search-input">
+                <button class="search-button"></button>
+            </div>
+            <button class="cart-button">🛒</button>
+            <button class="account-button"></button>
+        </div>
+    </nav>
+    
+
+    
+    <header>
+        <div class="content">
+            <div class="text-block">
+                <h1>Магазин оригінальних фігурок Funko</h1>
+                <p>Збери колекцію про яку давно мріяв</p>
+                <button class="buy-button">До покупок</button>
+            </div>
+            <img src="./images/kaido dragon.png" alt="Kaido Dragon" class="dragon-image">
+        </div>
+    </header>
+
+    
+    <div class="brand-bar">
+        <img src="./images/marvel logo.png" alt="Marvel" class="brand-marvel">
+        <img src="./images/dc logo.png" alt="DC" class="brand-dc">
+        <img src="./images/star wars logo.png" alt="Star Wars" class="brand-star-wars">
+        <img src="./images/one piece logo.png" alt="One Piece" class="brand-one-piece">
+        <img src="./images/naruto logo.png" alt="Naruto" class="brand-naruto">
+    </div>
+
+    
+    <div class="new-arrivals">
+        
+        <div class="title-box">
+            <span>Нові надходження</span>
+        </div>
+
+        
+        <div class="figure-list">
+            <div class="figure-card" style="background-image: url('C:/Users/Admin/Desktop/web/html_css_code/images/gr1.jpg');">
+                <img src="C:/Users/Admin/Desktop/web/html_css_code/images/luffy gear five.png" alt="Luffy Gear Five">
+                <p class="price">900₴</p>
+            </div>
+            <div class="figure-card" style="background-image: url('C:/Users/Admin/Desktop/web/html_css_code/images/gr2.jpg');">
+                <img src="C:/Users/Admin/Desktop/web/html_css_code/images/batgirl.png" alt="Batgirl">
+                <p class="price">800₴</p>
+            </div>
+            <div class="figure-card" style="background-image: url('C:/Users/Admin/Desktop/web/html_css_code/images/gr3.jfif');">
+                <img src="C:/Users/Admin/Desktop/web/html_css_code/images/spider-man.png" alt="Spider-Man">
+                <p class="price">750₴</p>
+            </div>
+            <div class="figure-card" style="background-image: url('C:/Users/Admin/Desktop/web/html_css_code/images/gr4.jfif');">
+                <img src="C:/Users/Admin/Desktop/web/html_css_code/images/luffy.png" alt="Luffy">
+                <p class="price">950₴</p>
+            </div>
+            <div class="figure-card" style="background-image: url('C:/Users/Admin/Desktop/web/html_css_code/images/gr5.jpeg');">
+                <img src="./images/obito.png" alt="Obito">
+                <p class="price">900₴</p>
+            </div>
+        </div>
+
+        
+        <button class="load-more">Загрузити все</button>
+    </div>
+
+        
+    <div class="about-store">
+        <div class="about-text">
+            <h2>Інтернет-магазинів коміксів – зроби своє життя яскравішим!</h2>
+            <p>Funko World — це спільнота креативних і стильних людей, об'єднаних пристрастю до гік- та поп-культури. Ми втілюємо стиль життя, в якому комікси, ігри, фільми, манга, аніме та книги стають невід'ємною частиною нашої реальності. Наша місія — зробити цю культуру доступною кожному та ділитися нею з усіма бажаючими. Наша історія розпочалася нещодавно — у 2024 році ми запустили свій перший проєкт і з того часу виросли у мережу з тисячами відданих шанувальників гік-культури.</p>
+        </div>
+        <div class="about-image">
+            <img src="./images/funko store.jpeg" alt="Funko Store">
+        </div>
+    </div>
+
+    <div class="video-section">
+        <h2>Дізнайся більше про Funko World</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="./images/funko video.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+    </div>
+    
+    <div class="mystery-box">
+        <h2>Mystery Box</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/mystery1.png" alt="Звичайний Box">
+                <h3>Звичайний</h3>
+                <ul>
+                    <li>2 фігурки</li>
+                    <li>1 ексклюзивна</li>
+                </ul>
+                <p class="price">1500₴</p>
+            </div>
+            <div class="box">
+                <img src="./images/mystery2.png" alt="Super Box">
+                <h3>Super Box</h3>
+                <ul>
+                    <li>5 фігурок</li>
+                    <li>3 ексклюзивні</li>
+                </ul>
+                <p class="price">2000₴</p>
+            </div>
+            <div class="box">
+                <img src="./images/mystery3.png" alt="Rare Box">
+                <h3>Rare Box</h3>
+                <ul>
+                    <li>5 фігурок</li>
+                    <li>всі фігурки ексклюзивні</li>
+                </ul>
+                <p class="price">5000₴</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="feedback-section">
+        <div class="feedback-image">
+            <img src="./images/collections.webp" alt="Funko Shelf 1">
+        </div>
+        <div class="feedback-form">
+            <h2 class="feedback-title">Зворотній зв'язок</h2>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Введіть ім'я" required />
+                </div>
+                <div class="input-group">
+                    <input type="tel" placeholder="Введіть номер телефону" pattern="[0-9]+" inputmode="numeric" required />
+                </div>
+                
+                <div class="input-group">
+                    <textarea placeholder="Повідомлення" required></textarea>
+                </div>
+                <div class="input-group checkbox-group">
+                    <input type="checkbox" id="personal-data" required />
+                    <label for="personal-data">Даю згоду на обробку персональних даних</label>
+                </div>
+                <button type="submit" class="feedback-button">Відправити</button>
+            </form>
+        </div>
+        <div class="feedback-image">
+            <img src="./images/collections.jpg" alt="Funko Shelf 2">
+        </div>
+    </div>
+    
+    
+    <div class="qa-section">
+        <h2>Запитання та відповіді</h2>
+        <div class="qa-but
+        ,tons">
+            <button class="qa-button">Як працює доставка та повернення ?</button>
+            <button class="qa-button">Як бути в курсі всіх новинок ?</button>
+            <button class="qa-button">Як оформити запит на екслюзивні фігурки ?</button>
+            <button class="qa-button">Недорогі товари у магазині</button>
+            <button class="qa-button">Товар пошкодився при доставці. Що робити ?</button>
+        </div>
+    </div>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        
+        <div class="footer-column">
+            <h3>Адреси наших магазинів:</h3>
+            <p>вулиця Карпінського, 24, Львів</p>
+            <p>вулиця Степана Бандери, 12, Львів</p>
+            <p>вулиця Митрополита Андрея, 5, Львів</p>
+            <div class="social-icons">
+                <img src="./images/tg.png" alt="Telegram">
+                <img src="./images/insta.png" alt="Instagram">
+                <img src="./images/facebook.png" alt="Facebook">
+            </div>
+        </div>
+
+        
+        <div class="footer-column">
+            <h3>Допомога та консультація:</h3>
+            <p>Номер телефону для консультацій: +380967474641</p>
+            <p>volodymyr.moisieiev.sa.2023@lpnu.ua</p>
+            <div class="footer-buttons">
+                <button class="feedback-button">Написати відгук</button>
+                <button class="feedback-button">Читати відгуки</button>
+            </div>
+        </div>
+
+        
+        <div class="footer-column">
+            <h3>Графік роботи</h3>
+            <p>Пн-Пт: з 10:00 до 18:00</p>
+        </div>
+    </div>
+
+    
+    <div class="footer-bottom">
+        <a href="#">Політика конфіденційності</a>
+        <a href="#">Публічна оферта</a>
+        <a href="#">Угода користувача</a>
+        <span>Всі права захищені</span>
+    </div>
+</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
